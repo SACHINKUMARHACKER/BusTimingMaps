@@ -53,7 +53,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                 .snippet("Bus Timing at 8:15 am"));
 
         // mMap.moveCamera(CameraUpdateFactory.newLatLng(sdney));
-        mMap.animateCamera(CameraUpdateFactory.newLatLngZoom(sydney,20));
+        mMap.animateCamera(CameraUpdateFactory.newLatLngZoom(sydney,13));
     }
 
     @Override

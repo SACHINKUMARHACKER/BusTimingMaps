@@ -17,16 +17,16 @@ public class KhnActivity extends AppCompatActivity {
         ArrayList<Bus> busArrayList = new ArrayList<>();
 
 
-        Bus b1 = new Bus("Khanna","7:45 am");
-        Bus b2 = new Bus("Khanna","8:10 am");
-        Bus b3 = new Bus("Khanna","8:50 am");
-        Bus b4 = new Bus("Doraha","9:30 am");
-        Bus b5 = new Bus("Khanna","8:25 am");
-        Bus b6 = new Bus("Doraha","8:35 am");
-        Bus b7 = new Bus("Sahnewal chowk","9:00 am");
-        Bus b8 = new Bus("Sahnewal chowk","7:45 am");
-        Bus b9 = new Bus("Doraha","7:45 am");
-        Bus b10 = new Bus("Sherpur chowk","7:45 am");
+        Bus b1 = new Bus("Khanna -> Ludhiana","7:45 am to 8:45 am");
+        Bus b2 = new Bus("Khanna -> Ludhiana","8:10 am to 9:10 am");
+        Bus b3 = new Bus("Khanna -> Ludhiana","8:50 am to 9:50 am");
+        Bus b4 = new Bus("Doraha -> Ludhiana","9:30 am to 10:15 am");
+        Bus b5 = new Bus("Khanna -> Ludhiana","8:25 am to 9:25 am");
+        Bus b6 = new Bus("Doraha -> Ludhiana","8:35 am to 9:20 am");
+        Bus b7 = new Bus("Sahnewal chowk -> Ludhiana","9:00 am to 9:30 am");
+        Bus b8 = new Bus("Sahnewal chowk -> Ludhiana","7:45 am to 8:15 am");
+        Bus b9 = new Bus("Doraha -> Ludhiana","7:45 am to 8:15 am");
+        Bus b10 = new Bus("Sherpur chowk -> Ludhiana","7:45 am to 8:00 am");
 
         busArrayList.add(b1);
         busArrayList.add(b2);
